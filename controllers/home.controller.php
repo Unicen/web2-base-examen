@@ -8,8 +8,7 @@ class HomeController {
     private $view;
 
     public function __construct() {
-        $this->model = new CentroModel();
-        $this->view = new HomeView();
+
     }
 
     public function example() {
